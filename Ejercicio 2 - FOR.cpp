@@ -11,8 +11,7 @@ int main () {
     cin >> alturaMaxima;
 
     for (int i = 1; i <= alturaMaxima; i++) {
-        cout << i << " ";
-        cout << alturaMaxima - 1 << endl;
+        cout << i << " " << endl << alturaMinima;
     }
 
     return 0;
